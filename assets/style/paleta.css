@@ -1,9 +1,10 @@
 :root{
-  --marron: #5c3424;
-  --cian: #74ab94;
-  --salmon: #f28d6c;
-  --beige: #f5dfa8;
-  --mostaza: #f3cc74;
+  --bordo: #992702;
+  --cian: #3c7d72;
+  --naranja: #d44a24;
+  --beige: #fff4cf;
+  --mostaza: #ffae00;
+  --negro: #050103;
 }
 
 @font-face {
@@ -13,7 +14,7 @@
 
 
 .navbar{
-  background-color: var(--salmon);
+  background-color: var(--naranja);
   font-family: "nostalgic";
 }
 
