@@ -8,13 +8,22 @@
 
 @font-face {
   font-family: 'nostalgic' ;
-  src: url(../styles/fonts/NostalgicRetro.otf);
+  src: url(../fonts/NostalgicRetro.otf);
 }
 
+@font-face {
+  font-family: 'westernRetro';
+  src: url(../fonts/WesternRetro.ttf);
+}
+
+a{
+  color: #5c3424 !important; 
+  font-size: 40px;
+}
 
 .navbar{
   background-color: var(--salmon);
-  font-family: "nostalgic";
+  font-family: 'westernRetro';
 }
 
 body{
@@ -30,4 +39,9 @@ body{
   background-color: #c16446;
   padding: 10px;
   width: fit-content;
+}
+
+img{
+  height: 100px;
+  padding: 10px;
 }
