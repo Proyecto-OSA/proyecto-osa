@@ -1,0 +1,33 @@
+:root{
+  --marron: #5c3424;
+  --cian: #74ab94;
+  --salmon: #f28d6c;
+  --beige: #f5dfa8;
+  --mostaza: #f3cc74;
+}
+
+@font-face {
+  font-family: 'nostalgic' ;
+  src: url(../fonts/NostalgicRetro.otf);
+}
+
+
+.navbar{
+  background-color: var(--salmon);
+  font-family: "nostalgic";
+}
+
+body{
+  background-color: var(--beige);
+}
+
+.nav-item{
+  transition: all;
+  padding: 10px;
+}
+
+.nav-item:hover{
+  background-color: #c16446;
+  padding: 10px;
+  width: fit-content;
+}
