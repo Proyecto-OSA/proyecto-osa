@@ -79,3 +79,8 @@ footer{
     padding: 0 100%;
   }
 }
+
+.retrocamIcon{
+  height: 100px;
+  padding: 3px;
+}
