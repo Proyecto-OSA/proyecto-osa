@@ -79,6 +79,9 @@ footer{
   height: 250px
   width: 250px;
 }
+.card-text{
+  font-style: italic;
+}
 .borde1{
   border: 2px solid;
   border-color: #74ab94;
