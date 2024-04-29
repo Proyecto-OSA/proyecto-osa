@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Home</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,20 +16,17 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-<<<<<<< HEAD
-    <link rel="stylesheet" href="assets/style/paleta.css">
-=======
-    <link rel="stylesheet" href="assets/style/plantillacss.css">
+    <link rel="stylesheet" href="assets/style/indexcss.css">
     <link rel="shortcut icon" href="assets/img/retrocamIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/home.css">
     <script src="https://kit.fontawesome.com/368cdab837.js" crossorigin="anonymous"></script>
->>>>>>> origin/devSaucedo
   </head>
 
   <body class="d-flex flex-column flex-grow-1 min-vh-100">
     <header>
       <nav class="navbar navbar-expand-lg bg-marron p-0 fixed-top">
         <div class="container-fluid w-100px">
-          <a class="navbar-brand" href="#" style="font-size: 40px;"><img src="assets/img/retrocamIcon.png" alt="">RETRO CAM</a>
+          <a class="navbar-brand" href="#" style="font-size: 40px;"><img src="assets/img/retrocamIcon.png" alt="" style="height: 100px; padding: 10px;">RETRO CAM</a>
           <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,22 +47,51 @@
       </nav>
     </header>
     <main class="flex-fill">
-      <form class="my-4 container">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <div class="container row mx-auto">
+            <div class="card mx-auto my-4 borde1" style="width: 18rem;">
+                <img src="assets/img/camara1_canonae1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Canon AE-1</h5>
+                  <p class="card-text">La Canon AE-1 es una cámara réflex para aficionados avanzados que emplea película de 35 mm. La fabricó Canon en Japón desde abril de 1976 hasta 1984. </p>
+                </div>
+            </div>
+            <div class="card mx-auto my-4 borde2" style="width: 18rem;">
+                <img src="assets/img/camara2_nikonphotomic.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Nikon Photomic</h5>
+                  <p class="card-text">La cámara Nikon F, comercializada en abril de 1959,1​ fue la primera cámara SLR de Nikon. Fue una de las cámaras más avanzadas de su época.​</p>
+                </div>
+            </div>
+            <div class="card mx-auto my-4 borde3" style="width: 18rem;">
+                <img src="assets/img/camara3_pentaxk1000.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Pentax k1000</h5>
+                  <p class="card-text">La Pentax k1000 es una cámara réflex SLR de soporte fotosensible de película de formato 35mm. Producida desde 1976 hasta 1997 por Asahi Optical Co., Ltd. en Japón. </p>
+                </div>
+            </div>
+            <div class="card mx-auto my-4 borde3" style="width: 18rem;">
+                <img src="assets/img/camara4-Polaroid.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Polaroid 1000</h5>
+                  <p class="card-text">Sin duda esta Polaroid 1000 es una de las cámaras más icónicas de mi colección. Estamos ante una cámara mítica que fue un éxito de ventas a finales de los 70 y que hizo de Polaroid una de las marcas fotográficas más míticas de los 80.</p>
+                </div>
+            </div>
+            <div class="card mx-auto my-4 borde1" style="width: 18rem;">
+                <img src="assets/img/videocamara-sony-betamovie-bmc-100-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Sony Betamovie BMC-100</h5>
+                  <p class="card-text">Esta es la primera cámara de video que integró los dos componentes clave: la cámara y la grabadora de la cinta. Llegando a ser, en su época, la cámara de video más compacta y liviana.</p>
+                </div>
+            </div>
+            <div class="card mx-auto my-4 borde2" style="width: 18rem;">
+                <img src="assets/img/videocamara-sony-handycam-ccd-v50-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Sony Handicam CCD v50</h5>
+                  <p class="card-text">Esta es una cámara lanzada al mercado dos años después de que Sony introdujo su cinta Video8 para reemplazar el anterior sistema Betamax y sacar ventaja sobre JVC y sus sistema VHS.s</p>
+                </div>
+            </div>
+            
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
     </main>
     <footer class="text-center">
       <!-- Grid container -->

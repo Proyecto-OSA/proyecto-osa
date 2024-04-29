@@ -16,19 +16,21 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/indexcss.css">
+    <link rel="shortcut icon" href="assets/img/retrocamIcon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/368cdab837.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body class="d-flex flex-column flex-grow-1 min-vh-100">
     <header>
-      <nav class="navbar navbar-expand-lg bg-marron fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="font-size: 40px;">RETRO CAM</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg bg-marron p-0 fixed-top">
+        <div class="container-fluid w-100px">
+          <a class="navbar-brand" href="#" style="font-size: 40px;"><img src="assets/img/retrocamIcon.png" alt="">RETRO CAM</a>
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav justify-content-center">
+            <ul class="navbar-nav  align-items-center fs-1">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
               </li>
@@ -43,81 +45,79 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="container py-5" style="margin-top: 30PX;">
-        <h1 class="text-center">Camaras</h1>
-        <div class="position-relative d-flex flex-row flex-wrap align-items-center my-5">
-          <div class="col"> 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/camara1_canonae1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col"> 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/camara1_canonae1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col"> 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/camara1_canonae1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col"> 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/camara1_canonae1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col"> 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/camara1_canonae1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-          </div>
-          <div class="col"> 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/camara1_canonae1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-          </div>
+    <main class="flex-fill">
+      <form class="my-4 container">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-      </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </main>
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
-    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Proyecto OSA S.A. </p>
-
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-    </a>
-
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-    </ul>
+    <footer class="text-center">
+      <!-- Grid container -->
+      <div class="container pt-2">
+        <!-- Section: Social media -->
+        <section class="mb-2">
+          <!-- Facebook -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-body fs-5" href="https://github.com/Proyecto-OSA">proyecto-osa.com</a>
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
