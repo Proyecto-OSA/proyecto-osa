@@ -58,3 +58,35 @@ img {
 footer{
   background-color: #f28d6c;
 }
+
+.nav-link{
+  font-size:  20px;
+}
+
+@media (max-width: 600px) {
+  .nav-link {
+    font-size: 20px;
+  }
+}
+.img-fluid{
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-color: red;
+}
+
+.img-border1{
+  border: 3.5px solid;
+  border-color: #fcac04;
+}
+
+.img-border2{
+  border: 3.5px solid;
+  border-color: #3c7c74;
+}
+
+.img-border3{
+  border: 3.5px solid;
+  border-color: #e89874;
+}
