@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Log-in</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,16 +16,105 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/styles/paleta.css">
+    <link rel="stylesheet" href="assets/style/indexcss.css">
+    <link rel="shortcut icon" href="assets/img/retrocamIcon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/368cdab837.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body class="d-flex flex-column flex-grow-1 min-vh-100">
     <header>
-      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-lg bg-marron p-0 fixed-top">
+        <div class="container-fluid w-100px">
+          <a class="navbar-brand" href="#" style="font-size: 40px;"><img src="assets/img/retrocamIcon.png" alt="">RETRO CAM</a>
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  align-items-center fs-1">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main></main>
-    <footer>
-      <!-- place footer here -->
+    <main class="flex-fill">
+      <form class="my-4 container">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        </div>
+        <button class="loginbtn" type="button"><a class="login" href="plantilla.html">Log-in</a></button>
+      </form>
+    </main>
+    <footer class="text-center">
+      <!-- Grid container -->
+      <div class="container pt-2">
+        <!-- Section: Social media -->
+        <section class="mb-2">
+          <!-- Facebook -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-body fs-5" href="https://github.com/Proyecto-OSA">proyecto-osa.com</a>
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
