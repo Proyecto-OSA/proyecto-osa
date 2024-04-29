@@ -1,4 +1,4 @@
-:root{
+:root {
   --marron: #5c3424;
   --cian: #74ab94;
   --salmon: #f28d6c;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'nostalgic' ;
+  font-family: 'nostalgic';
   src: url(../fonts/NostalgicRetro.otf);
 }
 
@@ -16,32 +16,45 @@
   src: url(../fonts/WesternRetro.ttf);
 }
 
-a{
-  color: #5c3424 !important; 
+a {
+  color: #5c3424 !important;
   font-size: 40px;
 }
 
-.navbar{
+.navbar {
   background-color: var(--salmon);
   font-family: 'westernRetro';
 }
 
-body{
+body {
   background-color: var(--beige);
+  padding-top: 115px;
 }
 
-.nav-item{
+.nav-item {
   transition: all;
   padding: 10px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   background-color: #c16446;
   padding: 10px;
   width: fit-content;
 }
 
-img{
+img {
   height: 100px;
   padding: 10px;
+}
+
+.links a{
+  font-size: 15px;
+}
+
+.iconos a{
+  font-size: 20px;
+}
+
+footer{
+  background-color: #f28d6c;
 }
