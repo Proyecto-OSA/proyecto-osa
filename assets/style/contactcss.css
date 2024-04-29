@@ -33,7 +33,7 @@ body {
 
 .nav-item {
   transition: all;
-
+  font-size: 20px
 }
 
 .nav-item:hover {

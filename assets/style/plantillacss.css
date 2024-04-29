@@ -74,6 +74,12 @@ footer{
     font-size: 20px;
   }
 }
+
+@media (max-width: 991px) {
+  .nav-item:hover {
+    padding: 0 100%;
+  }
+}
 .img-fluid{
   padding: 0;
   width: 200px;
